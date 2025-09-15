@@ -1,5 +1,5 @@
 {
-  "name": "Your app",
+  "name": "TRT-LLM Test",
   "dockerComposeFile": "docker-compose.yaml",
   "service": "app",
   "shutdownAction": "none",
