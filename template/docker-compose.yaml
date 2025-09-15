@@ -1,8 +1,8 @@
-version: '2.4'
+version: '1.0'
 services:
   app:
-    container_name: "application-server"
-    image: <your app image> 
+    container_name: "triton-trt-llm"
+    image: nvcr.io/nvidia/tritonserver:25.08-trtllm-python-py3
     restart: always
     volumes:
       - ..:/workspace:cached
