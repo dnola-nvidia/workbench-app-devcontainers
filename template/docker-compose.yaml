@@ -7,7 +7,7 @@ services:
     volumes:
       - ..:/workspace:cached
     ports:
-      - '<port>:<port>'
+      - '8888:8888'
     networks:
       - app-network
     cap_add:
